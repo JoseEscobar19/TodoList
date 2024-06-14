@@ -1,0 +1,30 @@
+nav{
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 10%;
+
+}
+ul{
+    justify-content:space-evenly;
+    align-items: center;
+    display: flex;
+    Flex-direction:row-reverse;
+    justify-content: flex-end;
+    
+}
+
+li{
+    padding:5px;
+    margin: 6px;
+    background-color: antiquewhite;    
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.title{
+    font-size: 40px;
+    color: brown;
+}

@@ -1,8 +1,57 @@
-.App {
+ /* .App {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+} */
+
+.todoList{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid black;
+  height: 50vh;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(147, 92, 75);
+  color: rgb(68, 20, 9);
 }
 
-.App-logo {
+.input {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/*.addFav{
+  background-color: rgb(243, 1, 1);
+  border-style:dotted;
+  
+}
+button{
+  font-size: 1.5rem;
+  background-color: aquamarine;
+
+}
+.listButton{
+  background-color: red;
+  color:aliceblue;
+}
+input{
+  font-size: 1.5rem;
+}
+.FavList{
+  background-color: rgb(221, 175, 163);
+  border-color: rgb(240, 86, 59);
+  border-style: dashed;
+  padding: 1px;
+}
+.things{
+  border: 3px solid;
+  margin: 5px;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +84,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
